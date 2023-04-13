@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.proyecto1";
+option java_outer_classname = "Proyecto1Proto";
+option objc_class_prefix = "HLW";
+
+package proyecto1;
+
+service Votos {
+  rpc AddVoto (VotosRequest) returns (Reply) {}
+}
+
+message VotosRequest {
+  int32 sede = 1;
+  string municipio = 2;
+  string departamento = 3;
+  string papeleta = 4;
+  string partido = 5;
+}
+
+message Reply {
+  string message = 1;
+}
