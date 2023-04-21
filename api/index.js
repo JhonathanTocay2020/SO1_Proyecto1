@@ -1,6 +1,8 @@
 const express = require('express'); 
 const mysql = require('mysql2');    //Importando libreria para conectarse a una BD de MYSQL
 const cors = require('cors');
+const Redis = require('ioredis');
+const redis = new Redis();
 const app = express();
 
 app.use(express.json());
@@ -21,6 +23,7 @@ conexion.connect(function(error){
         console.log("CONEXION EXITOSA A LA BASE DE DATOS");
     }
 });
+
 
 app.get('/', (req, res) => {
     res.json({mensaje: "Api Proyecto1"})
@@ -98,5 +101,74 @@ app.get('/depa', (req, res) => {
     });
 });
 
+app.get('/ultimos5', (req, res) => {
+    redis.keys('voto:*').then(keys => {
+      // Sort the keys in reverse order
+      keys = keys.sort((a, b) => b.localeCompare(a));
+      keys = keys.slice(0, 5);
+    
+      // Retrieve the values for the last 5 keys
+      return redis.mget(keys);
+    }).then(values => {
+      // Parse the JSON values and send them in the response
+      values = values.map(v => JSON.parse(v));
+      res.send(values);
+    }).catch(error => {
+      console.error(error);
+      res.status(500).send('Error retrieving last 5 votes');
+    });
+});
+
+//----------------------------------------------------------------------------------
+app.get('/top', async (req, res) => {
+  try {
+    const keys = await redis.keys('voto:*');
+
+    const sedes = {};
+
+    // Iterar sobre las claves de Redis y contar los votos por sede
+    keys.forEach(key => {
+      redis.get(key, (error, value) => {
+        if (error) {
+          throw error;
+        }
+
+        const voto = JSON.parse(value);
+
+        if (!sedes[voto.sede]) {
+          sedes[voto.sede] = {
+            votos: 0,
+            municipio: voto.municipio,
+            departamento: voto.departamento
+          };
+        }
+
+        sedes[voto.sede].votos++;
+      });
+    });
+
+    // Esperar a que se procesen todas las claves
+    await new Promise(resolve => setTimeout(resolve, 1000));
+
+    // Ordenar las sedes por número de votos y tomar las 5 primeras
+    const topSedes = Object.entries(sedes)
+      .sort((a, b) => b[1].votos - a[1].votos)
+      .slice(0, 5);
+
+    // Crear un array de objetos con la sede, los votos, el municipio y el departamento
+    const result = topSedes.map(([sede, data]) => ({
+      sede,
+      votos: data.votos,
+      municipio: data.municipio,
+      departamento: data.departamento
+    }));
+
+    res.json(result);
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error al obtener las sedes con mayores votos');
+  }
+});
+//-----------------------------------------------------------------------------------
 const port = process.env.port || 4200;
 app.listen(port, () => console.log('Escuchando en puerto 4200...'))
