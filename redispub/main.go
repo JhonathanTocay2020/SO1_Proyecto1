@@ -68,12 +68,16 @@ func main() {
 			return
 		}
 		// Responder con un mensaje de éxito y el contador de votos
+		fmt.Println("Voto Registrado en Redis: ", voto)
 		fmt.Fprintf(w, "¡Gracias por votar! (%d votos registrados)", counter)
+
 	})
 
 	// Iniciar el servidor HTTP con CORS
-	err := http.ListenAndServe(":8080", corsHandler(http.DefaultServeMux))
+	fmt.Println("Iniciando Redis Pub en el puerto Puerto: 3300")
+	err := http.ListenAndServe(":3300", corsHandler(http.DefaultServeMux))
 	if err != nil {
 		log.Fatal("Error al iniciar el servidor HTTP:", err)
+
 	}
 }

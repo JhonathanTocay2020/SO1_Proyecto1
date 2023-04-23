@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Dash from './componentes/Dash';
+import {BrowserRouter, Switch,Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +18,12 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header>*/}
+      <BrowserRouter>
+        <Switch>
+          <Route exact path={"/"} component = {Dash}></Route>
+        </Switch>
+      </BrowserRouter>      
     </div>
   );
 }
