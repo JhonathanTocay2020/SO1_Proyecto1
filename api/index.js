@@ -156,9 +156,9 @@ app.get('/top', async (req, res) => {
       .slice(0, 5);
 
     // Crear un array de objetos con la sede, los votos, el municipio y el departamento
-    const result = topSedes.map(([sede, data]) => ({
-      sede,
-      votos: data.votos,
+    const result = topSedes.map(([x, data]) => ({
+      x,
+      value: data.votos,
       municipio: data.municipio,
       departamento: data.departamento
     }));
