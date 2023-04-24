@@ -79,13 +79,15 @@ export default function Rep4() {
   };
 
   return (
-    <div>
-      <h3>Reporte 4: </h3>
-      {error ? (
-        <p>Ha ocurrido un error al cargar los datos: {error}</p>
-      ) : (
-        <Bar data={data} options={options} />
-      )}
+    <div style={{width: '80%', height: '500px'}}>
+
+        <h3>Reporte 4: </h3>
+        {error ? (
+          <p>Ha ocurrido un error al cargar los datos: {error}</p>
+        ) : (
+          <Bar data={data} options={options} />
+        )}
+
     </div>
   );
 };
