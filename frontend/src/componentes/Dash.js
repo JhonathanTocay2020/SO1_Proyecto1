@@ -32,12 +32,14 @@ class Dash extends Component{
                     <Rep4></Rep4>              
                     <Rep5></Rep5>    
                     */
-                }
+                } 
                  <div >
                     <Rep1 />
                 </div>
                 
-                <Rep2></Rep2> 
+                <Rep2></Rep2>
+                <br></br>
+                <br></br> 
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '400px' }}>
                     <Rep31></Rep31>
                     <Rep32></Rep32>
@@ -45,11 +47,16 @@ class Dash extends Component{
                 <br></br>
                 <br></br>
                 <br></br>
+                <br></br>
                 <Rep4></Rep4>
-                
+                <br></br>
                 <br></br>
                 <br></br>
                 <Rep5></Rep5> 
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
             </div>
         );
     }
