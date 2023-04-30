@@ -93,7 +93,7 @@ export default function Rep31() {
   const [selectedDepartamento, setSelectedDepartamento] = useState('');
   const [departamentos, setDepartamentos] = useState([]);
 
-  useEffect(() => {
+  /*useEffect(() => {
     axios.get(urlGet)
       .then(response => {
         let tempLabels = [];
@@ -115,6 +115,38 @@ export default function Rep31() {
       .catch(error => {
         console.log(error);
       });
+  }, []);*/
+
+  const fetchData = () => {
+    axios.get(urlGet)
+      .then(response => {
+        let tempLabels = [];
+        let tempData = [];
+        //console.log(response.data)
+        for(let i = 0; i < response.data.length; i++) {
+          tempLabels.push(response.data[i].departamento + "-" + response.data[i].partido)
+          tempData.push(parseFloat(response.data[i].porcentaje_votos));
+        }
+        //console.log(tempLabels)
+        //console.log(tempData)
+        setLabels(tempLabels);
+        setData(tempData);
+
+        // Obtener la lista de departamentos únicos
+        const uniqueDepartamentos = Array.from(new Set(response.data.map(item => item.departamento)));
+        setDepartamentos(uniqueDepartamentos);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }
+
+  useEffect(() => {
+    fetchData(); // llamamos a fetchData() para obtener los datos inicialmente
+    const interval = setInterval(() => {
+      fetchData(); // llamamos a fetchData() cada 5 segundos
+    }, 5000);
+    return () => clearInterval(interval); // limpiamos el intervalo al desmontar el componente
   }, []);
 
   const handleDepartamentoChange = (event) => {

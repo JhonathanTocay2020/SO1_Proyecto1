@@ -4,14 +4,14 @@ import axios from 'axios';
 
 //--------------------------------------------------------------
 import { Grid } from 'gridjs-react';
-import "gridjs/dist/theme/mermaid.css";
+//import "gridjs/dist/theme/mermaid.css";
 
 const URL = "http://localhost:4200";
 const urlGet = URL+"/ultimos5"; 
 
 export default function Rep5() {
     const [datos, setDatos] = useState({});
-    useEffect(() => {
+    /*useEffect(() => {
         axios.get(urlGet)
         .then(response => {
             console.log(response.data)
@@ -20,7 +20,24 @@ export default function Rep5() {
         .catch(error => {
             console.log(error);
         });
-      }, []);
+    }, []);*/
+
+      const fetchData = () => {
+        axios.get(urlGet)
+          .then(response => {
+            setDatos(response.data);
+          })
+          .catch(error => {
+            console.log(error);
+          });
+      };
+    
+      useEffect(() => {
+        const timer = setTimeout(() => {
+          fetchData();
+        }, 5000);
+        return () => clearTimeout(timer);
+      }, [datos]);
 
     const columns = [
         { id: 'sede', name: 'sede' },

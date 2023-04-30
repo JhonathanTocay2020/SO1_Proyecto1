@@ -1,0 +1,30 @@
+.reloj-hora {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    margin-right: 4rem; /* crea un espacio entre el h3 y el borde del header */
+    right: 1rem; /* ajusta la posición del h3 */
+    text-align: right; /* alinea el contenido del h3 a la derecha */
+}
+
+.div_reloj{
+    display: flex;
+  justify-content: space-between;
+  right: 100;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    min-width: 100%;
+    max-width: 1000px; /* establece un ancho máximo para el header */
+    background-color: #1abc9c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}

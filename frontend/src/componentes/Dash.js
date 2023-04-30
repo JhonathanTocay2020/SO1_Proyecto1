@@ -5,6 +5,11 @@ import Rep5 from "./reporte5";
 import Rep4 from "./reporte4";
 import Rep31 from "./reporte3_1";
 import Rep32 from "./reporte3_2";
+import Reloj from "./Reloj";
+import "../css/style.css"
+import "gridjs/dist/theme/mermaid.css";
+
+
 class Dash extends Component{
     
     reload = () => {
@@ -15,6 +20,13 @@ class Dash extends Component{
     }
     render(){
         return(
+        <div>
+            <div className="header">
+                <h1>Dashboard</h1>
+                <Reloj></Reloj>               
+            </div>
+
+            <div style={{height: '150px'}}></div>
             <div style={{
                 display: "flex",
                 flexDirection: "column",
@@ -22,9 +34,7 @@ class Dash extends Component{
                 width: '80%',
                 margin: "0 auto",
               }}>
-                <div className="header">
-                    <h1>Dashboard</h1>
-                </div>
+                
                 {
                     /*
                     <Rep1></Rep1>
@@ -33,7 +43,7 @@ class Dash extends Component{
                     <Rep5></Rep5>    
                     */
                 } 
-                 <div >
+                <div >
                     <Rep1 />
                 </div>
                 
@@ -58,6 +68,7 @@ class Dash extends Component{
                 <br></br>
                 <br></br>
             </div>
+        </div>
         );
     }
 }

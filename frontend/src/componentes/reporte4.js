@@ -13,7 +13,7 @@ export default function Rep4() {
   const [datos, setDatos] = useState([]);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
+  /*useEffect(() => {
       axios.get(urlGet)
       .then(response => {
         console.log(response.data);
@@ -23,7 +23,25 @@ export default function Rep4() {
         console.log(error);
         setError(error.message);
       });
-  }, []);
+  }, []);*/
+  const fetchData = () => {
+    axios.get(urlGet)
+      .then(response => {
+        //console.log(response.data);
+        setDatos(response.data);
+      })
+      .catch(error => {
+        setError(error.message);
+      });
+  };
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      fetchData();
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [datos]);
+  
   
   const data = {
     //labels: ['1', '2', '3', '4', '5'],
