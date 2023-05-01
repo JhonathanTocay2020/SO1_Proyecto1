@@ -1,0 +1,2 @@
+# Proyecto so1-Project
+kubectl apply -f run-namespace.yaml
