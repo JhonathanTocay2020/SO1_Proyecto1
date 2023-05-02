@@ -23,7 +23,7 @@ type Voto struct {
 func main() {
 	// Configurar la conexión con Redis
 	rdb := redis.NewClient(&redis.Options{
-		Addr:     "localhost:6379",
+		Addr:     "34.172.178.89:6379",
 		Password: "", // no hay contraseña
 	})
 
@@ -35,7 +35,7 @@ func main() {
 	counter := 0
 
 	// Ruta para recibir los votos
-	http.HandleFunc("/votar", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/voto/agregarVoto", func(w http.ResponseWriter, r *http.Request) {
 		// Decodificar el JSON del cuerpo de la solicitud
 		decoder := json.NewDecoder(r.Body)
 		var voto Voto
@@ -70,7 +70,6 @@ func main() {
 		// Responder con un mensaje de éxito y el contador de votos
 		fmt.Println("Voto Registrado en Redis: ", voto)
 		fmt.Fprintf(w, "¡Gracias por votar! (%d votos registrados)", counter)
-
 	})
 
 	// Iniciar el servidor HTTP con CORS

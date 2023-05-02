@@ -41,6 +41,8 @@ class Dash extends Component{
                     <Rep2></Rep2> 
                     <Rep4></Rep4>              
                     <Rep5></Rep5>    
+                    
+                    
                     */
                 } 
                 <div >

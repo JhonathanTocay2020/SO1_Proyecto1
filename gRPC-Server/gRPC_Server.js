@@ -1,7 +1,8 @@
 var PROTO_PATH = './proto/proyecto1.proto';
-
+var mysql = require('mysql2');
 var grpc = require('@grpc/grpc-js');
 var protoLoader = require('@grpc/proto-loader');
+
 var packageDefinition = protoLoader.loadSync(
     PROTO_PATH,
     {keepCase: true,
@@ -13,10 +14,28 @@ var packageDefinition = protoLoader.loadSync(
 
 var proyecto1_proto = grpc.loadPackageDefinition(packageDefinition).proyecto1;
 
-const mysqlConexion = require('./mysql_conexion');
+//const mysqlConexion = require('./mysql_conexion');
+
+var mysqlConexion = mysql.createConnection({     
+  host: '104.154.28.100',
+  database: 'Proyecto1',
+  user: 'root',
+  password: 'mysql1234',
+  timezone: 'Z'
+});
+
+mysqlConexion.connect(function(error){   
+  if(error){
+      throw error;
+  }else{
+      console.log("CONEXION EXITOSA A LA BASE DE DATOS");
+  }
+});
 
 function AddVoto(call, callback) {
   //console.log(call.request);
+  
+
   mysqlConexion.query('INSERT INTO `votos` (`no_sede`,`municipio`,`departamento`,`papeleta`,`partido`) VALUES (?, ?, ?, ?,?)',
     [call.request.sede, call.request.municipio, call.request.departamento, call.request.papeleta, call.request.partido], function(err,result,fields){
         if(err){

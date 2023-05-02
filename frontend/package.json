@@ -45,5 +45,10 @@
   "devDependencies": {
     "css-loader": "^6.7.3",
     "style-loader": "^3.3.2"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

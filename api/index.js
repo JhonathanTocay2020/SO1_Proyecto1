@@ -2,34 +2,42 @@ const express = require('express');
 const mysql = require('mysql2');    //Importando libreria para conectarse a una BD de MYSQL
 const cors = require('cors');
 const Redis = require('ioredis');
-const redis = new Redis();
+const redis = new Redis({
+  host: '34.172.178.89',
+  port: 6379
+});
+
 const app = express();
 
 app.use(express.json());
 app.use(cors());
 
 var conexion = mysql.createConnection({     
-    host: 'localhost',
-    database: 'proyecto1',
+    host: '104.154.28.100',
+    database: 'Proyecto1',
     user: 'root',
     password: 'mysql1234',
     timezone: 'Z'
 });
 
 conexion.connect(function(error){   
-    if(error){
-        throw error;
-    }else{
-        console.log("CONEXION EXITOSA A LA BASE DE DATOS");
-    }
+  if(error){
+      throw error;
+  }else{
+      console.log("CONEXION EXITOSA A LA BASE DE DATOS");
+  }
 });
 
+redis.on('error', (err) => {
+  console.error('Error ' + err);
+});
 
 app.get('/', (req, res) => {
     res.json({mensaje: "Api Proyecto1"})
 });
 
 app.get('/recopilacion', (req, res) => {
+  
     conexion.query('SELECT * FROM votos', function (error, resultados, campos) {
       if (error) {
         console.log(error);
@@ -38,6 +46,7 @@ app.get('/recopilacion', (req, res) => {
         res.json(resultados);
       }
     });
+
 });
 
 app.get('/top3', (req, res) => {
@@ -58,7 +67,8 @@ app.get('/top3', (req, res) => {
 });
 
 app.get('/muni', (req, res) => {
-    /*var query = `SELECT municipio, partido, COUNT(*) * 100 / (SELECT COUNT(*) FROM votos WHERE papeleta = 'blanca' AND municipio = v.municipio) as porcentaje_votos
+  
+  /*var query = `SELECT municipio, partido, COUNT(*) * 100 / (SELECT COUNT(*) FROM votos WHERE papeleta = 'blanca' AND municipio = v.municipio) as porcentaje_votos
     FROM votos v
     WHERE papeleta = 'blanca'
     GROUP BY municipio, partido
@@ -80,6 +90,7 @@ app.get('/muni', (req, res) => {
 });
 
 app.get('/depa', (req, res) => {
+
     /*var query = `SELECT departamento, partido, COUNT(*) * 100 / (SELECT COUNT(*) FROM votos WHERE papeleta = 'blanca' AND departamento = v.departamento) as porcentaje_votos
     FROM votos v
     WHERE papeleta = 'blanca'

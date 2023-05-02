@@ -1,7 +1,6 @@
 {
   "name": "grpc-client-api",
   "version": "1.0.0",
-  "description": "",
   "main": "gRPC_Client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,6 @@
     "lodash": "^4.17.21",
     "minimist": "^1.2.8",
     "morgan": "^1.10.0"
-  }
+  },
+  "description": ""
 }

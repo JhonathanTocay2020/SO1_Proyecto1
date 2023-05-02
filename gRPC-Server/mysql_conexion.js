@@ -1,8 +1,8 @@
 var mysql = require('mysql2');
 
 var mysqlConexion = mysql.createConnection({     
-    host: 'localhost',
-    database: 'proyecto1',
+    host: '127.0.0.1',
+    database: 'Proyecto1',
     user: 'root',
     password: 'mysql1234',
     timezone: 'Z'
