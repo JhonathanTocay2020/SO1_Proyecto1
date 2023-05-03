@@ -11,6 +11,7 @@ spec:
     metadata:
       labels:
         role: grpc-ruta
+
     spec:
       containers:
       - name: grpc-cliente

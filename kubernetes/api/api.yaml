@@ -24,6 +24,7 @@ kind: Service
 metadata:
   name: service-api
 spec:
+  #type: LoadBalancer
   ports:
   - port: 4200
     targetPort: 4200

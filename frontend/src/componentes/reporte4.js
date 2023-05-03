@@ -6,7 +6,7 @@ Chart.register(
   // Importar y registrar controladores de Chart.js aquí
 );
 
-const URL = "http://localhost:4200";
+const URL = "http://api.34.66.60.225.nip.io";
 const urlGet = URL+"/top"; 
 
 export default function Rep4() {

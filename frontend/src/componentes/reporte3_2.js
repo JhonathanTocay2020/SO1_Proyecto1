@@ -4,7 +4,7 @@ import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-const URL = "http://localhost:4200";
+const URL = "http://api.34.66.60.225.nip.io";
 const urlGet = URL+"/muni";
 
 export default function Rep32() {

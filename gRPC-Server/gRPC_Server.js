@@ -17,7 +17,7 @@ var proyecto1_proto = grpc.loadPackageDefinition(packageDefinition).proyecto1;
 //const mysqlConexion = require('./mysql_conexion');
 
 var mysqlConexion = mysql.createConnection({     
-  host: '104.154.28.100',
+  host: '35.192.54.180',
   database: 'Proyecto1',
   user: 'root',
   password: 'mysql1234',

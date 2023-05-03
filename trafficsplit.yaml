@@ -1,0 +1,12 @@
+apiVersion: split.smi-spec.io/v1alpha2
+kind: TrafficSplit
+metadata:
+  name: error-split
+  namespace: so1-proyecto1
+spec:
+  service: service-grpc
+  backends:
+  - service: service-grpc
+    weight: 50
+  - service: service-pub-sub
+    weight: 50

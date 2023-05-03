@@ -22,12 +22,12 @@ type Voto struct {
 func main() {
 	// Configurar la conexión con Redis
 	rdb := redis.NewClient(&redis.Options{
-		Addr:     "34.172.178.89:6379",
+		Addr:     "104.154.28.100:6379",
 		Password: "", // no hay contraseña
 	})
 
 	// Configurar la conexión con MySQL
-	db, err := sql.Open("mysql", "root:mysql1234@tcp(104.154.28.100:3306)/Proyecto1")
+	db, err := sql.Open("mysql", "root:mysql1234@tcp(35.192.54.180:3306)/Proyecto1")
 	if err != nil {
 		log.Fatal("Error al conectar a MySQL:", err)
 	}

@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Grid as GridJS } from 'gridjs-react';
 
 
-const URL = "http://localhost:4200";
+const URL = "http://api.34.66.60.225.nip.io";
 const urlGet = URL + "/recopilacion";
 
 export default function Rep1() {

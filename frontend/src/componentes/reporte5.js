@@ -6,7 +6,7 @@ import axios from 'axios';
 import { Grid } from 'gridjs-react';
 //import "gridjs/dist/theme/mermaid.css";
 
-const URL = "http://localhost:4200";
+const URL = "http://api.34.66.60.225.nip.io";
 const urlGet = URL+"/ultimos5"; 
 
 export default function Rep5() {

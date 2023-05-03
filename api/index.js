@@ -3,7 +3,7 @@ const mysql = require('mysql2');    //Importando libreria para conectarse a una 
 const cors = require('cors');
 const Redis = require('ioredis');
 const redis = new Redis({
-  host: '34.172.178.89',
+  host: '104.154.28.100',
   port: 6379
 });
 
@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 var conexion = mysql.createConnection({     
-    host: '104.154.28.100',
+    host: '35.192.54.180',
     database: 'Proyecto1',
     user: 'root',
     password: 'mysql1234',
