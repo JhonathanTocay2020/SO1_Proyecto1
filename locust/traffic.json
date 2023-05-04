@@ -1,10 +1,132 @@
 [
   {
-      "sede": 1,
-      "municipio": "Guatemala",
-      "departamento": "Guatemala",
-      "papeleta": "Blanca",
-      "partido": "FCN"
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  }
+  ,{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  }
+  ,{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "VAMOS"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Rosada",
+    "partido": "UNE"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Rosada",
+    "partido": "VAMOS"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Rosada",
+    "partido": "VAMOS"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Rosada",
+    "partido": "VALOR"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Rosada",
+    "partido": "VALOR"
+  },{
+    "sede": 1,
+    "municipio": "Guatemala",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "FCN"
   },{
     "sede": 1,
     "municipio": "Guatemala",
@@ -234,545 +356,1271 @@
     "municipio": "Mixco",
     "departamento": "Guatemala",
     "papeleta": "Rosada",
-    "partido": ""
-  },{
-      "sede": 3,
-      "municipio": "Cobán",
-      "departamento": "Alta Verapaz",
-      "papeleta": "Blanca",
-      "partido": "VAMOS"
+    "partido": "VALOR"
   },{
     "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "FCN"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "FCN"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "VAMOS"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Verde",
+    "partido": "VAMOS"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 3,
+    "municipio": "Amatitlan",
+    "departamento": "Guatemala",
+    "papeleta": "Rosada",
+    "partido": "VALOR"
+  },{
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Blanca",
     "partido": "VAMOS"
   },{
-    "sede": 3,
+    "sede": 4,
+    "municipio": "Cobán",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Blanca",
     "partido": "FCN"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Blanca",
     "partido": "FCN"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Blanca",
     "partido": "VALOR"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Verde",
     "partido": "UNE"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Verde",
     "partido": "VAMOS"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Verde",
     "partido": "VAMOS"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Verde",
     "partido": "VAMOS"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Verde",
     "partido": "FCN"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Verde",
     "partido": "UNIONISTA"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Verde",
     "partido": "UNIONISTA"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Verde",
     "partido": "UNIONISTA"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Rosada",
     "partido": "FCN"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Rosada",
     "partido": "FCN"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Rosada",
     "partido": "FCN"
   },{
-    "sede": 3,
-    "municipio": "Cobán",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "UNIONISTA"
-  },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Rosada",
     "partido": "UNIONISTA"
   },{
-    "sede": 3,
+    "sede": 4,
     "municipio": "Cobán",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "VALOR"
-  },{
-    "sede": 3,
-    "municipio": "Cobán",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "VALOR"
-  },{
-      "sede": 4,
-      "municipio": "San Pedro Carchá",
-      "departamento": "Alta Verapaz",
-      "papeleta": "Blanca",
-      "partido": "UNE"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Blanca",
-    "partido": "VAMOS"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Blanca",
-    "partido": "VAMOS"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Blanca",
-    "partido": "FCN"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Blanca",
-    "partido": "FCN"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Blanca",
-    "partido": "FCN"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Blanca",
-    "partido": "VALOR"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Blanca",
-    "partido": "VALOR"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Blanca",
-    "partido": "VALOR"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Blanca",
-    "partido": "VALOR"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Verde",
-    "partido": "UNE"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Verde",
-    "partido": "UNE"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Verde",
-    "partido": "VAMOS"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Verde",
-    "partido": "VAMOS"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Verde",
-    "partido": "VAMOS"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Verde",
-    "partido": "UNIONISTA"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Verde",
-    "partido": "VALOR"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Verde",
-    "partido": "VALOR"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "UNE"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "VAMOS"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "VAMOS"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "FCN"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "FCN"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "FCN"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
-    "departamento": "Alta Verapaz",
-    "papeleta": "Rosada",
-    "partido": "FCN"
-  },{
-    "sede": 4,
-    "municipio": "San Pedro Carchá",
     "departamento": "Alta Verapaz",
     "papeleta": "Rosada",
     "partido": "UNIONISTA"
   },{
     "sede": 4,
-    "municipio": "San Pedro Carchá",
+    "municipio": "Cobán",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "VALOR"
+  },{
+    "sede": 4,
+    "municipio": "Cobán",
     "departamento": "Alta Verapaz",
     "papeleta": "Rosada",
     "partido": "VALOR"
   },{
       "sede": 5,
-      "municipio": "Salamá",
-      "departamento": "Baja Verapaz",
+      "municipio": "San Pedro Carchá",
+      "departamento": "Alta Verapaz",
       "papeleta": "Blanca",
       "partido": "UNE"
   },{
     "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "VAMOS"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "VAMOS"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "VAMOS"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "UNE"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "VAMOS"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "VAMOS"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 5,
+    "municipio": "San Pedro Carchá",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "VALOR"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "FCN"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "FCN"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "FCN"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "VAMOS"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "UNE"
+  },{
+    "sede": 6,
+    "municipio": "Tamahú",
+    "departamento": "Alta Verapaz",
+    "papeleta": "Rosada",
+    "partido": "UNE"
+  },{
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "UNE"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "UNE"
   },{
-    "sede": 5,
+    "sede": 7,
+    "municipio": "Salamá",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "UNIONISTA"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "VALOR"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "UNE"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "UNE"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "VAMOS"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "VAMOS"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "UNIONISTA"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "UNIONISTA"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "UNIONISTA"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "UNE"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "FCN"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "UNIONISTA"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "VALOR"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "VALOR"
   },{
-    "sede": 5,
+    "sede": 7,
     "municipio": "Salamá",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "VALOR"
   },{
-      "sede": 6,
+      "sede": 8,
       "municipio": "Granados",
       "departamento": "Baja Verapaz",
       "papeleta": "Blanca",
       "partido": "UNE"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "UNE"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "UNE"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "VAMOS"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "VAMOS"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "FCN"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Blanca",
     "partido": "VALOR"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "UNE"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "VAMOS"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "VAMOS"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "VAMOS"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "VAMOS"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "FCN"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "FCN"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "UNIONISTA"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "UNIONISTA"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Verde",
     "partido": "VALOR"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "UNE"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "UNE"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "UNE"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "VAMOS"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "VAMOS"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "FCN"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
     "papeleta": "Rosada",
     "partido": "UNIONISTA"
   },{
-    "sede": 6,
+    "sede": 8,
     "municipio": "Granados",
     "departamento": "Baja Verapaz",
+    "papeleta": "Rosada",
+    "partido": "VALOR"
+  },{
+    "sede": 8,
+    "municipio": "Granados",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Rosada",
+    "partido": "VALOR"
+  },{
+    "sede": 9,
+    "municipio": "Rabinal",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 9,
+    "municipio": "Rabinal",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 9,
+    "municipio": "Rabinal",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 9,
+    "municipio": "Rabinal",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 9,
+    "municipio": "Rabinal",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 9,
+    "municipio": "Rabinal",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Verde",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 9,
+    "municipio": "Rabinal",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 9,
+    "municipio": "Rabinal",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Rosada",
+    "partido": "UNE"
+  },{
+    "sede": 9,
+    "municipio": "Rabinal",
+    "departamento": "Baja Verapaz",
+    "papeleta": "Rosada",
+    "partido": "UNE"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Verde",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "VAMOS"
+  },{
+    "sede": 10,
+    "municipio": "Chiquimula",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Verde",
+    "partido": "VAMOS"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "VAMOS"
+  },{
+    "sede": 11,
+    "municipio": "Ipala",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "VAMOS"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Verde",
+    "partido": "FCN"
+  },{
+    "sede": 12,
+    "municipio": "Esquipulas",
+    "departamento": "Chiquimula",
+    "papeleta": "Rosada",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 13,
+    "municipio": "Huehuetenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 13,
+    "municipio": "Huehuetenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 13,
+    "municipio": "Huehuetenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 13,
+    "municipio": "Huehuetenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 13,
+    "municipio": "Huehuetenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Rosada",
+    "partido": "VAMOS"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "VALOR"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "VALOR"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Rosada",
+    "partido": "VALOR"
+  },{
+    "sede": 14,
+    "municipio": "Chiantla",
+    "departamento": "Huehuetenango",
+    "papeleta": "Rosada",
+    "partido": "FCN"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "FCN"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "VAMOS"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Blanca",
+    "partido": "UNE"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "UNE"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Verde",
+    "partido": "UNIONISTA"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Rosada",
+    "partido": "UNE"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Rosada",
+    "partido": "UNE"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
+    "papeleta": "Rosada",
+    "partido": "VALOR"
+  },{
+    "sede": 15,
+    "municipio": "Jacaltenango",
+    "departamento": "Huehuetenango",
     "papeleta": "Rosada",
     "partido": "VALOR"
   }
